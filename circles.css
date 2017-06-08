@@ -1,0 +1,127 @@
+
+.c100 .bar, .fill {
+  position: absolute;
+  border: 0.08em solid #307bbb;
+  width: 0.84em;
+  height: 0.84em;
+  clip: rect(0em, 0.5em, 1em, 0em);
+  border-radius: 50%;
+  transform: rotate(0deg);
+}
+
+.c100 {
+  position: relative;
+  font-size: 120px;
+  width: 1em;
+  height: 1em;
+  border-radius: 50%;
+  float: left;
+  margin: 0 0.1em 0.1em 0;
+  background-color: #cccccc;
+}
+
+.c100 *, .c100 *:before, .c100 *:after {
+  box-sizing: content-box;
+}
+
+.c100 > span {
+  position: absolute;
+  width: 100%;
+  z-index: 1;
+  left: 24px;
+  top: 45px;
+  width: 5em;
+  line-height: 1em;
+  font-size: 15px;
+  color: #cccccc;
+  display: block;
+  text-align: center;
+  white-space: nowrap;
+  transition-property: all;
+  transition-duration: 0.2s;
+  transition-timing-function: ease-out;
+}
+
+.c100:after {
+  position: absolute;
+  top: 0.08em;
+  left: 0.08em;
+  display: block;
+  content: " ";
+  border-radius: 50%;
+  background-color: whitesmoke;
+  width: 0.84em;
+  height: 0.84em;
+  transition-property: all;
+  transition-duration: 0.2s;
+  transition-timing-function: ease-in;
+}
+
+.c100 .slice {
+  position: absolute;
+  width: 1em;
+  height: 1em;
+  clip: rect(0em, 1em, 1em, 0.5em);
+}
+
+.c100.p25 .bar {
+  transform: rotate(90deg);
+}
+
+.c100:hover {
+  cursor: default;
+}
+
+.c100:hover > span {
+  width: 0px;
+  line-height: 5px;
+  font-size: 12px;
+  color: #307bbb;
+}
+
+.c100:hover:after {
+  top: 0.04em;
+  left: 0.04em;
+  width: 0.92em;
+  height: 0.92em;
+}
+
+#second-word {
+  font-size: 10px;
+}
+
+#first-word {
+  font-size: 10px;
+}
+
+#second-word {
+  font-size: 10px;
+}
+
+#third-word {
+  font-size: 10px;
+}
+
+@media (max-width: 450px) {
+  .c100 {
+    font-size: 70px;
+  }
+
+  .c100 > span {
+    left: 9px;
+    top: 25px;
+    font-size: 10px;
+  }
+
+  #first-word {
+    font-size: 6px;
+  }
+
+  #second-word {
+    font-size: 6px;
+  }
+
+  #third-word {
+    font-size: 6px;
+  }
+}

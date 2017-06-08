@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700" rel="stylesheet">
+    <link rel="stylesheet" href="bargraph.css">
+    <link rel="stylesheet" href="job-profile.css">
+    <link rel="stylesheet" href="search-bar.css">
+    <link rel="stylesheet" href="mobile.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="circles.css">
+    <title>Static Comp 3</title>
+  </head>
+  <body>
+
+    <div id="mobile-menu">
+      <img src="assets/navicon.svg" alt="" id="navicon">
+      <img src="assets/me.jpg" alt="User profile picture." id="user-mobile-pic">
+    </div>
+
+    <aside id="side-bar">
+      <div id="profile-pic-container" class="bottom-border">
+        <img src="assets/me.jpg" alt="User profile picture." id="user-profile-pic">
+        <select id="username" name="username">
+          <option value="User Admin">User Admin</option>
+          <option value="User Admin1">User Admin</option>
+        </select>
+      </div>
+      <nav class="bottom-border">
+        <p class="aside-containers-titles">Main</p>
+        <a href="#" class="links-text"><img src="assets/home.svg" alt="Image of an house used as an icon for home link." class="links-icons">HOME</a>
+        <a href="#" class="links-text"><img src="assets/briefcase.svg" alt="Image of a briefcase used as icon for jobs link." class="links-icons">JOBS</a>
+        <a href="#" class="links-text"><img src="assets/resume.svg" alt="Image of a form used as icon for resume link." class="links-icons">RESUMES</a>
+        <a href="#" class="links-text"><img src="assets/checklist.svg" alt="Image of a checklist used as icon for tasks link." class="links-icons">TASKS</a>
+        <a href="#" class="links-text"><img src="assets/calendar.svg" alt="Image of a calendar used as icon for calendar link." class="links-icons">CALENDAR</a>
+      </nav>
+      <div id="admin-container" class="bottom-border">
+        <p class="aside-containers-titles">Admin</p>
+        <a href="#" class="links-text"><img src="assets/home.svg" alt="Image of an house used as an icon for home link." class="links-icons">USERS</a>
+        <a href="#" class="links-text"><img src="assets/briefcase.svg" alt="Image of a briefcase used as icon for jobs link." class="links-icons">LOCATIONS</a>
+        <a href="#" class="links-text"><img src="assets/resume.svg" alt="Image of a form used as icon for resume link." class="links-icons">WORKFLOWS</a>
+        <a href="#" class="links-text"><img src="assets/checklist.svg" alt="Image of a checklist used as icon for tasks link." class="links-icons">JOB BOARDS</a>
+        <a href="#" class="links-text"><img src="assets/calendar.svg" alt="Image of a calendar used as icon for calendar link." class="links-icons">SOCIAL</a>
+      </div>
+      <div id="categories">
+        <p class="aside-containers-titles">Categories</p>
+        <form class="" action="index.html" method="post">
+          <a href="#" class="categories-links-text" ><input type="checkbox" name="" value="" class="checkbox-sizing" id="yellow-checkbox">Administrative</a>
+          <a href="#" class="categories-links-text"><input type="checkbox" name="" value="" class="checkbox-sizing" id="blue-checkbox">Design</a>
+          <a href="#" class="categories-links-text" ><input type="checkbox" name="" value="" class="checkbox-sizing" id="red-checkbox">Executive</a>
+          <a href="#" class="categories-links-text"><input type="checkbox" name="" value="" class="checkbox-sizing" id="green-checkbox">Human Resources</a>
+        </form>
+      </div>
+    </aside>
+
+    <main>
+      <header>
+
+        <section id="search-bar-container">
+          <button type="button" name="button" class="search-bar-buttons-sizing right-border-search-button"><img src="assets/list.svg" alt="" class="search-buttons-logos"><img src="assets/list-hover.svg" alt="" class="hover-search-buttons-logos"></button>
+          <input type="text" name="" value="" id="search-input" placeholder="Search for a job, task, or resume">
+          <button type="button" name="button" class="search-bar-buttons-sizing left-border-search-buttons"><img src="assets/person.svg" alt="" class="search-buttons-logos"><img src="assets/person-hover.svg" alt="" class="hover-search-buttons-logos"></button>
+          <button type="button" name="button" class="search-bar-buttons-sizing left-border-search-buttons"><img src="assets/application.svg" alt="" class="search-buttons-logos"><img src="assets/application-hover.svg" alt="" class="hover-search-buttons-logos"></button>
+          <button type="button" name="button" class="search-bar-buttons-sizing left-border-search-buttons"><img src="assets/squares.svg" alt="" class="search-buttons-logos"><img src="assets/squares-hover.svg" alt="" class="hover-search-buttons-logos"></button>
+        </section>
+
+        <section id="job-title-container">
+          <section id="job-title-container-top-box">
+            <section id="job-title-top-box-left-section">
+              <h1 id="user-job-title-text">Software Developer</h1>
+              <p id="user-location-text"><img src="assets/location.svg" alt="" id="location-icon">Denver, CO</p>
+              <a href="#" id="preview-link">Preview this post</a>
+            </section>
+            <section id="job-title-container-top-box-right-section">
+              <button type="button" name="button" id="job-title-section-oval-button"><img src="assets/circle.svg" alt="" id="circle-icon"><img src="assets/circle-hover.svg" alt="" id="circle-icon-hover">OPEN</button>
+              <button type="button" name="button" class="job-title-section-round-buttons"><img src="assets/ribbon.svg" alt="" class="round-button-icons"><img src="assets/ribbon-hover.svg" alt="" class="round-button-icons-hover"></button>
+              <button type="button" name="button" class="job-title-section-round-buttons"><img src="assets/pencil.svg" alt="" class="round-button-icons"><img src="assets/pencil-hover.svg" alt="" class="round-button-icons-hover"></button>
+              <button type="button" name="button" class="job-title-section-round-buttons"><img src="assets/trash.svg" alt="" class="round-button-icons"><img src="assets/trash-hover.svg" alt="" class="round-button-icons-hover"></button>
+            </section>
+          </section>
+          <section id="job-title-container-bottom-box">
+            <button type="button" name="button" class="job-profile-tabs" id="job-profile-tabs-1">SUMMARY</button>
+            <button type="button" name="button" class="job-profile-tabs" id="job-profile-tabs-2">APPLICANTS</button>
+            <button type="button" name="button" class="job-profile-tabs" id="job-profile-tabs-3">JOB BOARD</button>
+            <button type="button" name="button" class="job-profile-tabs" id="job-profile-tabs-4">INTERVIEWS</button>
+            <button type="button" name="button" class="job-profile-tabs" id="job-profile-tabs-5">ACTIVITY</button>
+            <button type="button" name="button" class="job-profile-tabs" id="job-profile-tabs-6">BROADCAST</button>
+            <button type="button" name="button" class="job-profile-tabs" id="job-profile-tabs-7">NOTIFICATIONS</button>
+          </section>
+          <section id="job-title-container-bottom-box-hidden">
+            <button type="button" name="button" class="job-profile-tabs" id="job-profile-tabs-1">SUMMARY</button>
+            <button type="button" name="button" class="job-profile-tabs" id="job-profile-tabs-2">APPLICANTS</button>
+            <button type="button" name="button" class="job-profile-tabs" id="job-profile-tabs-2">MORE</button>
+            <img src="assets/more.svg" alt="" id="more-arrow">
+          </section>
+        </section>
+
+      </header>
+
+      <section id="graph-container">
+        <div id="graph-container-left-side">
+          <div id="left-side-top-section">
+
+            <div class="circle-graphs">
+              <div class="c100 p25">
+                <span id="">3,154</br><span id="first-word">APPLICANTS</span></span>
+                <div class="slice">
+                  <div class="bar"></div>
+                  <div class="fill"></div>
+                </div>
+              </div>
+            </div>
+
+            <div class="circle-graphs">
+              <div class="c100 p25">
+                <span>1,546</br><span id="second-word">INTERVIEWS</span></span>
+                <div class="slice">
+                  <div class="bar"></div>
+                  <div class="fill"></div>
+                </div>
+              </div>
+            </div>
+
+            <div class="circle-graphs">
+              <div class="c100 p25">
+                <span>3,154</br><span id="third-word">FORWARDS</span></span>
+                <div class="slice">
+                  <div class="bar"></div>
+                  <div class="fill"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div id="left-side-bottom-section">
+            <p id="total-views">TOTAL Out of 5,231 views</p>
+          </div>
+        </div>
+        <div id="graph-container-right-side">
+          <div id="right-side-top-section">
+            <div class="graph_fancy" data-x-label="" data-y-label="">
+	            <span class="bar"></span>
+
+	            <span class="bar" style="height: 66%;" data-bar-label="Jan" data-bar-value="66%"></span>
+               <span class="bar" style="height: 46%;" data-bar-label="Feb" data-bar-value="46%"></span>
+               <span class="bar" style="height: 56%;" data-bar-label="Mar" data-bar-value="56%"></span>
+               <span class="bar" style="height: 86%;" data-bar-label="Apr" data-bar-value="86%"></span>
+               <span class="bar" style="height: 83%;" data-bar-label="May" data-bar-value="83%"></span>
+               <span class="bar" style="height: 34%;" data-bar-label="Jun" data-bar-value="34%"></span>
+               <span class="bar" style="height: 73%;" data-bar-label="Jul" data-bar-value="73%"></span>
+               <span class="bar" style="height: 54%;" data-bar-label="Aug" data-bar-value="54%"></span>
+               <span class="bar" style="height: 22%;" data-bar-label="Sep" data-bar-value="22%"></span>
+               <span class="bar" style="height: 39%;" data-bar-label="Oct" data-bar-value="39%"></span>
+               <span class="bar" style="height: 49%;" data-bar-label="Nov" data-bar-value="49%"></span>
+               <span class="bar" style="height: 80%;" data-bar-label="Dec" data-bar-value="80%"></span>
+            </div>
+          </div>
+          <div id="right-side-bottom-section">
+            <p id="applicants-per-day">APPLICANTS/DAY</p>
+          </div>
+        </div>
+
+      </section>
+      <section id="main-bottom-section">
+
+        <div id="job-description-social-media-container">
+          <section id="job-description-box">
+
+            <section id="job-description-box-title">
+              <h3 id="job-description-title-text">JOB DESCRIPTION</h3>
+              <button type="button" name="button" id="edit-button"><img src="assets/pencil.svg" alt="" id="edit-icon"><img src="assets/pencil-hover.svg" alt="" id="edit-icon-hover">Edit</button>
+            </section>
+
+            <section id="job-description-information-container">
+              <div id="job-description-information">
+                <section class="job-information-containers">
+                  <div class="job-info-containers-left-section">
+                    <p class="job-info-con-left-section-text">POSITION TITLE</p>
+                  </div>
+                  <div class="job-info-containers-right-section">
+                    <p class="job-info-con-right-section-text">Software Developer Ninja</p>
+                  </div>
+                </section>
+                <section class="job-information-containers">
+                  <div class="job-info-containers-left-section">
+                    <p class="job-info-con-left-section-text">LOCATION</p>
+                  </div>
+                  <div class="job-info-containers-right-section">
+                    <p class="job-info-con-right-section-text">Denver, CO</p>
+                  </div>
+                </section>
+                <section class="job-information-containers">
+                  <div class="job-info-containers-left-section">
+                    <p class="job-info-con-left-section-text">EMPLOYMENT TYPE</p>
+                  </div>
+                  <div class="job-info-containers-right-section">
+                    <p class="job-info-con-right-section-text">Full-time</p>
+                  </div>
+                </section>
+                <section class="job-information-containers">
+                  <div class="job-info-containers-left-section">
+                    <p class="job-info-con-left-section-text">EXPERIENCE</p>
+                  </div>
+                  <div class="job-info-containers-right-section">
+                    <p class="job-info-con-right-section-text">Master</p>
+                  </div>
+                </section>
+                <section class="job-information-containers">
+                  <div class="job-info-containers-left-section">
+                    <p class="job-info-con-left-section-text">STATUS</p>
+                  </div>
+                  <div class="job-info-containers-right-section">
+                    <p class="job-info-con-right-section-text">Open</p>
+                  </div>
+                </section>
+                <section class="job-information-containers" id="job-information-containers6">
+                  <div class="job-info-containers-left-section">
+                    <p class="job-info-con-left-section-text">DESCRIPTION</p>
+                  </div>
+                  <div class="job-info-containers-right-section">
+                    <p class="job-info-con-right-section-text">Backing bootstrapping learning curve
+                      freemium pivot leverage rockstar long tail value proposition crowdsource stock disruptive series A financing. Angel investor
+                      business model canvas strategy product management infographic social proof facebook influencer iPhone. Channels network effects
+                      buzz client startup infrastructure partnership early adopters scrum project influencer bootstrapping incubator strategy iteration.
+                    </p>
+                  </div>
+                </section>
+                <section class="job-information-containers">
+                  <div class="job-info-containers-left-section">
+                    <p class="job-info-con-left-section-text">HIRING LEAD</p>
+                  </div>
+                  <div class="job-info-containers-right-section">
+                    <img src="assets/hiringguy.jpg" alt="" id="hiring-lead-image">
+                    <p class="job-info-con-right-section-text" id="hiring-lead-name">John Doe</p>
+                  </div>
+                </section>
+                <section class="job-information-containers" id="job-information-containers8">
+                  <div class="job-info-containers-left-section">
+                    <p class="job-info-con-left-section-text">APPROVED SALARY</p>
+                  </div>
+                  <div class="job-info-containers-right-section">
+                    <p class="job-info-con-right-section-text"><strong>$70,000</strong></p>
+                  </div>
+                </section>
+              </div>
+            </section>
+          </section>
+          <section id="social-media-box">
+            <div id="social-media-buttons-container">
+              <button type="button" name="button" class="social-media-buttons-styling" id="facebook-button"><img src="assets/facebook.svg" alt="" class="social-media-icons-styling"><img src="assets/facebook-hover.svg" alt="" class="social-media-icons-hover"><a href="#" class="social-media-links-text-styling">Post to Facebook</a></button>
+              <button type="button" name="button" class="social-media-buttons-styling" id="twitter-button"><img src="assets/twitter.svg" alt="" class="social-media-icons-styling"><img src="assets/twitter-hover.svg" alt="" class="social-media-icons-hover"><a href="#" class="social-media-links-text-styling">Tweet this job</a></button>
+              <button type="button" name="button" class="social-media-buttons-styling" id="linkedin-button"><img src="assets/linkedin.svg" alt="" class="social-media-icons-styling"><img src="assets/linkedin-hover.svg" alt="" class="social-media-icons-hover"><a href="#" class="social-media-links-text-styling">Post to Linkedin</a></button>
+            </div>
+            <div id="widgets-container">
+              <section class="widgets" id="widgets-1">
+                <img src="assets/earth.svg" alt="" class="widgets-icons">
+                <p class="widgets-title">Link to this job</p>
+                <p class="widgets-description" id="widgets-description-1">Bring to the table win-win survival strategies to ensure proactive domination.</p>
+                <div class="widgets-buttons-boxes">
+                  <button type="button" name="button" class="widgets-button-left">http://www.loremipsum....</button>
+                  <button type="button" name="button" class="widgets-button-right">Copy</button>
+                </div>
+              </section>
+              <section class="widgets" id="widgets-2">
+                <img src="assets/eyeball.svg" alt="" class="widgets-icons">
+                <p class="widgets-title">Link to this job</p>
+                <p class="widgets-description" id="widgets-description-2">Bring to the table win-win survival strategies to ensure proactive domination.</p>
+                <div class="widgets-buttons-boxes">
+                  <button type="button" name="button" class="widgets-button-left">http://loremipsum.touch...</button>
+                  <button type="button" name="button" class="widgets-button-right">Copy</button>
+                </div>
+              </section>
+              <section id="widget-3">
+                <img src="assets/paper-plane.svg" alt="" class="widgets-icons">
+                <p class="widgets-title">Link to this job</p>
+                <p class="widgets-description">Bring to the table win-win survival strategies to ensure proactive domination.</p>
+                <div class="widgets-buttons-boxes">
+                  <button type="button" name="button" id="resume-button">my.buddy.@gmail.com</button>
+                </div>
+              </section>
+            </div>
+          </section>
+        </div>
+
+      </section>
+    </main>
+  </body>
+</html>

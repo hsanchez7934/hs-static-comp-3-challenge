@@ -1,0 +1,849 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  width: 100%;
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+}
+
+body:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+aside {
+  width: 13%;
+  background-color: #141f1f;
+  float: left;
+}
+
+main {
+  width: 87%;
+  height: 100%;
+  background-color: pink;
+  float: right;
+}
+
+header {
+  width: 100%;
+  height: 235px;
+  background-color: #fff;
+}
+
+/*----------------------------------------
+>>>>>>>> BEGINNING OF ASIDE CONTAINER <<<<<<<<
+----------------------------------------*/
+
+.bottom-border {
+  box-shadow: 0 4px 2px -2px #000;
+}
+
+.links-icons {
+  height: 15px;
+  width: 15px;
+  margin-right: 13px;
+  position: relative;
+  top: 2px;
+}
+
+.links-text {
+  text-decoration: none;
+  color: #e6e6e6;
+  display: block;
+  margin-bottom: 15px;
+  font-size: 11px;
+}
+
+.links-text:hover {
+  background-color: #476b6b;
+}
+
+nav {
+  width: 100%;
+  height: 260px;
+  padding-top: 20px;
+  padding-left: 10px;
+}
+
+/*----------------------------------------
+>>>>>>>> PROFILE PIC CONTAINER - aside <<<<<<<<
+----------------------------------------*/
+
+#profile-pic-container {
+  width: 100%;
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#admin-container {
+  width: 100%;
+  height: 260px;
+  padding-top: 20px;
+  padding-left: 10px;
+}
+
+#categories {
+  width: 100%;
+  height: 700px;
+  padding-top: 20px;
+  padding-left: 10px;
+}
+
+#user-profile-pic {
+  height: 60px;
+  width: 60px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 30px;
+  margin-bottom: 10px;
+  border: 1px solid #404040;
+}
+
+#username {
+  background-color: inherit;
+  border: 0;
+  color: #e6e6e6;
+}
+
+/*----------------------------------------
+>>>>>>>> NAV CONTAINER - aside <<<<<<<<
+----------------------------------------*/
+
+.aside-containers-titles {
+  color: #e6e6e6;
+  margin-top: 0;
+  margin-bottom: 20px;
+  font-size: 12px;
+}
+
+/*----------------------------------------
+>>>>>>>>  CATEGORIES LINK CONTAINERS - aside <<<<<<<<
+----------------------------------------*/
+
+.categories-links-text {
+  color: #fff;
+  text-decoration: none;
+  font-size: 10px;
+  display: block;
+  margin-bottom: 15px;
+  position: relative;
+  left: 5px;
+  font-size: 11px;
+ }
+
+.checkbox-sizing {
+  -webkit-appearance: none;
+  height: 15px;
+  width: 15px;
+  position: relative;
+  top: 5px;
+  right: 8px;
+}
+.checkbox-sizing:active,
+.checkbox-sizing:checked:active {
+  box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0px 1px 3px rgba(0,0,0,0.1);
+}
+
+.checkbox-sizing:checked {
+  background-color: #e9ecee;
+	border: 1px solid #adb8c0;
+	box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0px -15px 10px -12px rgba(0,0,0,0.05), inset 15px 10px -12px rgba(255,255,255,0.1);
+	color: #99a1a7;
+}
+
+.checkbox-sizing:checked:after {
+  content: '\2714';
+	font-size: 14px;
+	position: absolute;
+	top: -2px;
+	left: 1px;
+	color: #000;
+}
+
+#yellow-checkbox {
+  background-color: #ffff00;
+}
+
+#blue-checkbox {
+  background-color: #4d79ff;
+}
+
+#red-checkbox {
+  background-color: #ff1a1a;
+}
+
+#green-checkbox {
+  background-color: #29a329;
+}
+
+  /*----------------------------------------
+>>>>>>>> -- aside end -- MAIN BEGIN --  <<<<<<<<
+    ----------------------------------------*/
+
+/*----------------------------------------
+>>>>>>>>  BEGINNING OF JOB DESCRIPTION CONTAINER/SOCIAL MEDIA  <<<<<<<<
+----------------------------------------*/
+/*----------------------------------------
+>>>>>>>>  job description container  <<<<<<<<
+----------------------------------------*/
+
+#main-bottom-section {
+  width: 100%;
+  height: 815px;
+  background-color: #f0f5f5;
+  padding: 60px;
+}
+
+#job-description-social-media-container {
+  width: 100%;
+  height: 720px;
+}
+
+#job-description-social-media-container:after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+#job-description-box {
+  width: 70%;
+  height: 100%;
+  float: left;
+  padding-right: 20px;
+}
+
+#job-description-box-title {
+  width: 100%;
+  height: 10%;
+  background-color: #476b6b;
+  padding-top: 20px;
+  padding-left: 30px;
+}
+
+#job-description-title-text {
+  font-size: 20px;
+  margin: 0px 10px 0px 0px;
+  display: inline-block;
+  color: #f0f5f5;
+}
+
+#edit-button {
+  height: 35px;
+  width: 90px;
+  border: 0;
+  font-size: 12px;
+  background-color: #669999;
+  color: #f0f5f5;
+  border: 1px solid #000;
+  cursor: pointer;
+}
+
+#edit-icon {
+  height: 15px;
+  width: 15px;
+  position: relative;
+  top: 2px;
+  margin-right: 5px;
+}
+
+#edit-button:hover {
+  background-color: #f0f5f5;
+  color: #527a7a;
+}
+
+#edit-button:hover #edit-icon {
+  display: none;
+}
+
+#edit-button:hover #edit-icon-hover {
+  display: inline-block;
+}
+
+#edit-icon-hover {
+  display: none;
+  height: 15px;
+  width: 15px;
+  position: relative;
+  top: 2px;
+  margin-right: 5px;
+}
+
+#job-description-information-container {
+  width: 100%;
+  height: 90%;
+  margin: 0;
+  background-color: #d1e0e0;
+  padding: 0px 25px 0px 25px;
+}
+
+#job-description-information {
+  width: 100%;
+  height: 100%;
+}
+
+.job-information-containers {
+  width: 100%;
+  height: 10.714285%;
+  border-bottom: 1px solid black;
+}
+
+.job-information-containers:after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+#job-information-containers6 {
+  height: 25%;
+  width: 100%;
+  padding-bottom: 20px;
+}
+
+#job-information-containers8 {
+  border: 0;
+}
+
+.job-info-containers-left-section {
+  float: left;
+  width: 30%;
+  height: 100%;
+  padding-top: 24px;
+  word-wrap: break-word;
+}
+
+.job-info-containers-right-section {
+  float: right;
+  width: 70%;
+  height: 100%;
+  padding-top: 24px;
+}
+
+.job-info-con-left-section-text {
+  margin: 0;
+  font-size: 12px;
+  word-wrap: break-word;
+}
+
+.job-info-con-right-section-text {
+  margin: 0;
+  font-size: 12px;
+  word-wrap: break-word;
+}
+
+#hiring-lead-image {
+  height: 25px;
+  width: 25px;
+  border-radius: 50%;
+  margin-right: 10px;
+  position: relative;
+  bottom: 4px;
+}
+
+#hiring-lead-name {
+  display: inline-block;
+  position: relative;
+  bottom: 11px;
+}
+/*----------------------------------------
+>>>>>>>>  end of JOB DESCRIPTION CONTAINER  <<<<<<<<
+----------------------------------------*/
+
+/*----------------------------------------
+>>>>>>>>  social media container  <<<<<<<<
+----------------------------------------*/
+/*----------------------------------------
+>>>>>>>>  social media buttons- begin  <<<<<<<<
+----------------------------------------*/
+#social-media-box {
+    width: 30%;
+    height: 100%;
+    background-color: #f0f5f5;
+    float: right;
+}
+
+#social-media-buttons-container {
+  width: 100%;
+  height: 24%;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+#widgets-container {
+  width: 100%;
+  height: 76%;
+  padding-right: 20px;
+  padding-left: 20px;
+  padding-top: 30px;
+}
+
+.social-media-buttons-styling {
+  display: block;
+  background-color: blue;
+  width: 100%;
+  height: 25%;
+  border: 0;
+  margin-bottom: 20px;
+  border-radius: 3px;
+}
+
+.social-media-icons-styling {
+  height: 15px;
+  width: 15px;
+  position: relative;
+  right: 40px;
+}
+
+.social-media-icons-hover {
+  display: none;
+  height: 15px;
+  width: 15px;
+  position: relative;
+  right: 40px;
+}
+
+#facebook-button:hover .social-media-icons-hover {
+  display: inline-block;
+}
+
+#facebook-button:hover .social-media-icons-styling {
+  display: none;
+}
+
+#twitter-button:hover .social-media-icons-hover {
+  display: inline-block;
+}
+
+#twitter-button:hover .social-media-icons-styling {
+  display: none;
+}
+
+#linkedin-button:hover .social-media-icons-hover {
+  display: inline-block;
+}
+
+#linkedin-button:hover .social-media-icons-styling {
+  display: none;
+}
+
+.social-media-links-text-styling {
+  text-decoration: none;
+  color: #fff;
+  position: relative;
+  bottom: 5px;
+  font-size: 10px;
+}
+
+#facebook-button:hover .social-media-links-text-styling {
+  color: blue;
+  font-weight: 700;
+}
+
+#twitter-button:hover .social-media-links-text-styling {
+  color: blue;
+  font-weight: 700;
+}
+
+#linkedin-button:hover .social-media-links-text-styling {
+  color: blue;
+  font-weight: 700;
+}
+
+#facebook-button {
+  background-color: #4a6fc0;
+}
+#twitter-button {
+  background-color: #00a8ef;
+}
+#linkedin-button {
+  background-color: #0381bc;
+}
+
+#facebook-button:hover,
+#twitter-button:hover,
+#linkedin-button:hover {
+  background-color: #fff;
+  border: 1px solid #000;
+  cursor: pointer;
+}
+
+/*----------------------------------------
+>>>>>>>>  social media buttons - end  <<<<<<<<
+----------------------------------------*/
+
+/*----------------------------------------
+>>>>>>>>  social media widgets - begin <<<<<<<<
+----------------------------------------*/
+.widgets {
+  width: 100%;
+  border-bottom: 1px solid #000;
+}
+
+.widgets-icons {
+  height: 15px;
+  width: 15px;
+  position: relative;
+  top: 2px;
+}
+
+.widgets-title {
+  display: inline-block;
+  font-size: 14px;
+  margin-top: 0;
+  margin-bottom: 15px;
+}
+
+.widgets-description {
+  font-size: 12px;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+#widgets-description-2 {
+  margin-bottom: 30px;
+}
+
+.widgets-buttons-boxes {
+  width: 100%;
+}
+
+.widgets-buttons-boxes:after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.widgets-button-left {
+ width: 80%;
+ height: 40px;
+ float: left;
+ background-color: #fff;
+ border-top-left-radius: 3px;
+ border-bottom-left-radius: 3px;
+ border: 0;
+}
+
+.widgets-button-right {
+  width: 20%;
+  height: 40px;
+  float: right;
+  background-color: #3d5c5c;
+  border: 0;
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+  color: #fff;
+}
+
+#resume-button {
+  width: 100%;
+  height: 40px;
+  background-color: #fff;
+  border: 0;
+  border-radius: 3px;
+}
+
+#widgets-1 {
+  height: 32%;
+}
+
+#widgets-2 {
+  height: 40%;
+  padding-top: 30px;
+}
+
+#widget-3 {
+  width: 100%;
+  height: 28%;
+  padding-top: 20px;
+}
+
+/*----------------------------------------
+>>>>>>>>  social - media - widgets - end  <<<<<<<<
+----------------------------------------*/
+
+
+/*----------------------------------------
+>>>>>>>>  media - queries   <<<<<<<<
+----------------------------------------*/
+
+@media (max-width: 1150px) {
+  .job-title-section-round-buttons {
+    margin-right: 15px;
+}
+
+#job-title-container-top-box-right-section {
+    padding-left: 25px;
+}
+}
+
+@media (max-width: 1000px) {
+  aside {
+    display: none;
+  }
+
+  main {
+    width: 100%;
+  }
+
+  #mobile-menu {
+    display: block;
+  }
+
+  #job-title-top-box-left-section {
+    float: none;
+    display: block;
+    width: 100%;
+    height: 50%;
+    padding-top: 15px;
+    text-align: center;
+  }
+
+  #job-title-container-top-box-right-section {
+    float: none;
+    display: block;
+    width: 100%;
+    height: 50%;
+    padding-top: 20px;
+    text-align: center;
+  }
+
+  header {
+    height: 300px;
+  }
+
+  #job-title-container-bottom-box {
+    padding-top: 19px;
+    padding-left: 20px;
+  }
+
+  #graph-container-left-side {
+    float: none;
+    display: block;
+    width: 100%;
+    height: 50%;
+    padding-left: 0px
+  }
+
+  #graph-container-right-side {
+    float: none;
+    display: block;
+    width: 100%;
+    height: 50%;
+    padding-right: 0px;
+  }
+
+  #graph-container {
+  height: 650px;
+  }
+
+  #right-side-top-section {
+    width: 80%;
+    height: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 40px;
+  }
+
+  .circle-graphs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+  }
+
+  .job-profile-tabs {
+    margin-right: 30px;
+  }
+
+  #main-bottom-section {
+    height: 270vh;
+  }
+
+  #job-description-box {
+    float: none;
+    width: 100%;
+    height: 100%;
+  }
+
+  #social-media-box {
+    float: none;
+    width: 100%;
+    height: 100%;
+    padding-top: 45px;
+  }
+
+  #social-media-buttons-container {
+    padding-left: 4px;
+    padding-right: 17px;
+  }
+
+  #widgets-container {
+    padding-right: 15px;
+    padding-left: 7px;
+  }
+  .job-info-containers-right-section {
+    overflow: scroll;
+  }
+}
+
+@media (max-width: 700px) {
+  #job-title-container-bottom-box {
+    display: none;
+  }
+
+  #job-title-container-bottom-box-hidden {
+    display: block;
+    margin-top: 19px;
+    padding-left: 15px;
+  }
+
+  #more-arrow {
+    height: 20px;
+    width: 20px;
+    position: relative;
+    top: 5px;
+    right: 25px;
+  }
+
+  #search-input {
+    width: 100%;
+    order: 1;
+    height: 50%;
+  }
+
+  .search-bar-buttons-sizing {
+    width: 25%;
+    height: 50%;
+  }
+
+  #search-bar-container {
+    flex-wrap: wrap;
+  }
+}
+
+@media (max-width: 500px) {
+  .job-info-containers-right-section {
+    padding-left: 15px;
+  }
+
+  .job-info-con-right-section-text {
+    font-size: 10px;
+  }
+
+  .job-info-con-left-section-text {
+    font-size: 10px;
+  }
+
+  #job-description-title-text {
+    font-size: 10px;
+  }
+
+  #edit-button {
+    height: 25px;
+    width: 60px;
+    border: 0;
+    font-size: 9px;
+    background-color: #669999;
+    color: #f0f5f5;
+    border: 1px solid #000;
+    cursor: pointer;
+  }
+
+  #edit-icon {
+    height: 10px;
+    width: 10px;
+    position: relative;
+    top: 1px;
+    margin-right: 3px;
+  }
+
+  #job-description-box-title {
+    padding-left: 15px;
+  }
+
+  #job-title-section-oval-button {
+    height: 30px;
+    width: 100px;
+    font-size: 10px;
+  }
+
+  #circle-icon {
+    width: 8px;
+    height: 8px;
+    margin-right: 5px;
+  }
+
+  .job-title-section-round-buttons {
+    height: 30px;
+    width: 30px;
+  }
+
+  #job-title-top-box-left-section {
+     padding-left: 0px;
+  }
+
+  #main-bottom-section {
+    padding: 35px;
+  }
+
+  #job-description-box {
+    padding-right: 0px;
+  }
+
+  #social-media-buttons-container {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  #widgets-container {
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+
+  #main-bottom-section {
+    height: 270vh;
+  }
+
+  #search-input {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 450px) {
+  .job-info-con-left-section-text {
+    font-size: 8px;
+  }
+
+  .job-info-con-right-section-text {
+    font-size: 8px;
+  }
+
+  .widgets-title {
+    font-size: 12px;
+  }
+
+  .widgets-description {
+    font-size: 10px;
+  }
+
+  #navicon {
+    height: 30px;
+    width: 30px;
+  }
+
+  #user-mobile-pic {
+    height: 40px;
+    width: 40px;
+  }
+}
